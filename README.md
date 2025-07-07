@@ -1,28 +1,8 @@
 # 🧠 IA Validador Multimodal Inteligente de Archivos (versión beta)
 
-**Desarrollado por el equipo de Ciencia de Datos e Inteligencia Artificial - Oficina de Tecnologías de la Información (OTI)  
-Superintendencia de Industria y Comercio - SIC**
-
-
-
-## 👨‍💻 Equipo de desarrollo
-
-
-**Desarrollado por el equipo de Ciencia de Datos e Inteligencia Artificial - Oficina de Tecnologías de la Información (OTI)  
-Superintendencia de Industria y Comercio - SIC**
-
-* Equipo de Ciencia de Datos e Inteligencia Artificial
-   * "AMMS": "c.ammunozs@sic.gov.co",
-   * "JEVP": "c.jevanegas@sic.gov.co",
-
-
-
-
 ---
 
 ## 🧩 Descripción General
-
-**IA Validador Multimodal Inteligente de Archivos** es una solución modular que permite validar de forma automática la calidad de los documentos cargados por los ciudadanos en los formularios web de la Superintendencia de Industria y Comercio (SIC).
 
 La herramienta detecta el tipo de archivo (PDF, DOCX, XLSX, TXT, etc.) y aplica una serie de validaciones especializadas en función del formato, como detección de corrupción, peso mínimo/máximo, estructura interna y legibilidad.
 
