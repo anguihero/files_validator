@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  gateway:
+    build: ./gateway_service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - pdf_validator
+      - docx_validator
+      - eml_validator
+      - xlsx_validator
+      - txt_validator
+    networks:
+      - sic_net
+
+  pdf_validator:
+    build: ./pdf_service
+    networks:
+      - sic_net
+
+  docx_validator:
+    build: ./docx_service
+    networks:
+      - sic_net
+
+  xlsx_validator:
+    build: ./xlsx_service
+    networks:
+      - sic_net
+  txt_validator:
+    build: ./txt_service
+    networks:
+      - sic_net
+  eml_validator:
+    build: ./eml_service
+    networks:
+      - sic_net
+
+networks:
+  sic_net:
